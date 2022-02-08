@@ -5,6 +5,21 @@
 #include <stdio.h>
 
 int main() {
+
+  int a,b,total;
+  float x;
+
+  printf("Enter the subject 1 mark:");
+  scanf("%d",&a);
+
+  printf("Enter the subject 2 mark :");
+  scanf("%d",&b);
+
+  total=a+b;
+  x=total/2.0;
+
+  printf("Average mark is %.1f",x);
+  
   
   return 0;
 }
